@@ -1,7 +1,7 @@
-import React, { CSSProperties } from "react";
+import React from "react";
 
 type Styles = {
-  styles: CSSProperties;
+  styles: React.CSSProperties;
 };
 
 const StyleProps = ({ styles }: Styles) => {
